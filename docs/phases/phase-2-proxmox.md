@@ -20,3 +20,8 @@ Proxmox VE 9.2 was installed on the dual‑NVMe pool (ZFS mirror). The 2 TB LV
 
 ## Notes
 - SSH host key was replaced – old keys were removed from client machines
+
+## Final Configuration – Ethernet Only
+- Removed all Wi‑Fi connectivity and services.
+- Restored original network configuration: single IP `192.168.0.147` on `vmbr0`.
+- Server is now exclusively reachable via Ethernet.
