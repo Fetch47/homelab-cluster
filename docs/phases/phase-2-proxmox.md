@@ -25,3 +25,8 @@ Proxmox VE 9.2 was installed on the dual‑NVMe pool (ZFS mirror). The 2 TB LV
 - Removed all Wi‑Fi connectivity and services.
 - Restored original network configuration: single IP `192.168.0.147` on `vmbr0`.
 - Server is now exclusively reachable via Ethernet.
+
+## Domain & Certificate
+- Migrated to new DuckDNS domain `f3tch.duckdns.org`.
+- Installed Let's Encrypt certificate for `pve.f3tch.duckdns.org` via Proxmox ACME DNS challenge.
+- Updated AdGuard Home DNS rewrite to point `*.f3tch.duckdns.org` to `192.168.0.147`.
