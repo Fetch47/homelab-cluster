@@ -4,7 +4,7 @@ A fully automated, production‑grade home datacenter built on Proxmox and Kuber
 
 ## Current Status
 - [x] Phase 1 – Backup & Preparation
-- [ ] Phase 2 – Proxmox Installation
+- [x] Phase 2 – Proxmox Installation
 - [ ] Future phases – see [docs/phases/](docs/phases/)
 
 ## Hardware
